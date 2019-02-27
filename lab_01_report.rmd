@@ -109,4 +109,6 @@ DF_Smartphone_yandexmarket = data.frame(Name = title_data, Price = price, Score 
 str(DF_Smartphone_yandexmarket)
 dim(DF_Smartphone_yandexmarket)
 head(DF_Smartphone_yandexmarket)
+
+write.csv(DF_refridge, file = './Smartphone_yandexmarket.csv', row.names = F)
 ```
